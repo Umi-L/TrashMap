@@ -1,0 +1,49 @@
+#root {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    color: #000;
+
+    --start-bg-color: #59a359;
+    --start-outline-color: #305730;
+    --trash-inactive-color: grey;
+    --trash-inactive-border-color: #5f5f5f;
+}
+
+.logo {
+    display: none;
+    /* Remove unused logo styles */
+}
+
+.card {
+    display: none;
+    /* Remove unused card styles */
+}
+
+.read-the-docs {
+    display: none;
+    /* Remove unused text styles */
+}
+
+.control-panel {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    width: 20rem;
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+    text-align: left;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    border-radius: 0.25rem;
+    border: 1px solid #d0d0d0;
+}
